@@ -5,7 +5,6 @@ from django.db import models
 class Register(models.Model):
   name = models.CharField(max_length=50)
   password = models.CharField(max_length=50)
-  title = models.CharField(max_length=15, blank=True)
   age = models.IntegerField()
   email = models.EmailField(max_length=254)
 
