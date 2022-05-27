@@ -18,6 +18,8 @@ from django.urls import path, include
 from django.conf import settings
 from user_admin import urls as admin_urls
 from pages import urls as page_urls
+from django.conf.urls import handler404
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -25,3 +27,5 @@ urlpatterns = [
     path('', include(page_urls)),
 
 ]
+
+handler404 = 'pages.views.error_404'
