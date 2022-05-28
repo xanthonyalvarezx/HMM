@@ -23,7 +23,7 @@ def login_view(request):
 
         form = LoginForm()
 
-        return render(request, "generic_form.html", {"form": form})
+        return render(request, "login_form.html", {"form": form})
 
 def register_view(request):
     if request.method == "POST":

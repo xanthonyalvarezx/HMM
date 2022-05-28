@@ -1,0 +1,18 @@
+#link-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+#nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+#nav,
+#top-left {
+  background-color: #2c3840;
+}
+
+#top-right {
+  margin-bottom: 20px;
+}

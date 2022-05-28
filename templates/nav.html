@@ -1,5 +1,7 @@
 {% load static %}
 <head>
+  <link rel="stylesheet" href="{% static 'nav.css'  %}" />
+
   <!-- Compressed CSS -->
   <link
     rel="stylesheet"
@@ -13,26 +15,30 @@
     crossorigin="anonymous"
   ></script>
 </head>
-<div class="top-bar">
+<div class="top-bar" id="nav">
   <div class="top-bar-left">
-    <ul class="dropdown menu" data-dropdown-menu>
-      <li class="menu-text">
-        <img
-          src="{% static 'HISMindMatters.png' %}"
-          alt="his mind matters logo"
-        />
-      </li>
-      <li>
-        <a href="/landing">Home</a>
-      </li>
-      <li><a href="/resources">Resources</a></li>
-      <li><a href="/logout">Logout</a></li>
+    <ul class="dropdown menu" id="top-left" data-dropdown-menu>
+      <li class="menu-text"></li>
+      <img src="{% static 'HISMindMatters.png' %}" alt="his mind matters logo" height="200" width="200" id="logo" />
+      <div id="link-div">
+        <li>
+          <a href="/landing"><h3>Home</h3></a>
+        </li>
+        <li>
+          <a href="/resources"> <h3>Resources</h3></a>
+        </li>
+        <li>
+          <a href="/logout"><h3>Logout</h3></a>
+        </li>
+      </div>
     </ul>
   </div>
-  <div class="top-bar-right">
-    <ul class="menu">
-      <li><input type="search" placeholder="Search" /></li>
-      <li><button type="button" class="button">Search</button></li>
-    </ul>
+  <div id="search-div">
+    <div class="top-bar-right" id="top-right">
+      <ul class="menu">
+        <li><input type="search" placeholder="Search" /></li>
+        <li><button type="button" class="button">Search</button></li>
+      </ul>
+    </div>
   </div>
 </div>
