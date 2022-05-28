@@ -1,8 +1,13 @@
-{% block content %}
-<form method="post" enctype="multipart/form-data">
-  {% csrf_token %} {{ form.as_p }}
-  <button type="submit">Submit</button>
-</form>
-<p>Not signed up? <a href="/register">register here!</a></p>
+{% block content %}{%load static%}{%include 'nav.html'%}
+
+<link rel="stylesheet" href="{% static 'loginform.css'%}" />
+<div id="form-container">
+  <h3>Login</h3>
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %} {{ form.as_p }}
+    <button class="button" type="submit">Submit</button>
+  </form>
+  <p>Not signed up? <a href="/register">register here!</a></p>
+</div>
 
 {% endblock %}

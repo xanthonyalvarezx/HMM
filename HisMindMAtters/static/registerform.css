@@ -1,0 +1,23 @@
+#form-container{
+    display: grid;
+   
+    justify-content: center;
+    height: 100vw;
+}
+
+#header-text{
+    display: flex;
+    
+    justify-content: center;
+    
+    
+}
+
+.nav-item, #search-div{
+    visibility: hidden;
+}
+
+
+
+
+

@@ -1,0 +1,12 @@
+{% include 'nav.html'%}{% load static%}
+<link rel="stylesheet" href="{% static 'registerform.css' %}" />
+{% block content %}
+<h3 id="header-text">Registration</h3>
+Already registered? <a href="/">Log in!</a>
+<div id="form-container">
+  <form id="form" method="post" enctype="multipart/form-data">
+    {% csrf_token %} {{ form.as_p }}
+    <button class="button" type="submit">Submit</button>
+  </form>
+</div>
+{% endblock %}

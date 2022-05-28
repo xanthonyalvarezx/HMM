@@ -34,7 +34,7 @@ def register_view(request):
         People.objects.create(username=data['username'],name=data['name'],password=data['password'], age=data['age'], email=data['email'])
         return HttpResponseRedirect(reverse('login'))
     form = RegisterForm()
-    return render(request, 'generic_form.html', {'form':form})
+    return render(request, 'register_form.html', {'form':form})
 
 def logout_view(request):
     logout(request)

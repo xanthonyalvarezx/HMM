@@ -12,6 +12,10 @@
 #top-left {
   background-color: #2c3840;
 }
+#top-left{
+  margin-left: -30px;
+ 
+}
 
 #top-right {
   margin-bottom: 20px;

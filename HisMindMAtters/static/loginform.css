@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+#form-container{
+    display: grid;
+    justify-content: center;
+    
+
+}
+
+#id_username, #id_password{
+    width: 200px;
+}
+
+.nav-item, #search-div{
+    visibility: hidden;
+}
+
+#top-left{
+    margin-left: -30px;
+   
+}
+
+
