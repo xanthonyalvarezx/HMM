@@ -1,0 +1,38 @@
+{% load static %}
+<head>
+  <!-- Compressed CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css"
+    crossorigin="anonymous"
+  />
+
+  <!-- Compressed JavaScript -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<div class="top-bar">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li class="menu-text">
+        <img
+          src="{% static 'HISMindMatters.png' %}"
+          alt="his mind matters logo"
+        />
+      </li>
+      <li>
+        <a href="/landing">Home</a>
+      </li>
+      <li><a href="/resources">Resources</a></li>
+      <li><a href="/logout">Logout</a></li>
+    </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu">
+      <li><input type="search" placeholder="Search" /></li>
+      <li><button type="button" class="button">Search</button></li>
+    </ul>
+  </div>
+</div>
