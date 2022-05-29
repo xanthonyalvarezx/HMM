@@ -4,7 +4,24 @@
 
 #quote {
   width: fit-content;
-  box-shadow: 5px 2px 5px 2px grey;
+  /* box-shadow: 5px 2px 5px 2px grey; */
   margin: 25px 0px 0px 15px;
   border-radius: 10px;
+  width: fit-content;
+}
+
+#main-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+#mission_statement {
+  width: 700px;
+  margin: 20px;
+  border: none;
+  text-indent: 10px;
+}
+#center-photo {
+  width: 100vw;
+  height: 400px;
 }

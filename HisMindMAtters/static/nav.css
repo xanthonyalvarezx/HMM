@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Ubuntu&display=swap");
 #link-div {
   display: flex;
   justify-content: space-evenly;
@@ -6,17 +8,27 @@
 #nav {
   display: flex;
   align-items: flex-end;
+  font-family: "Tenor Sans", sans-serif;
 }
 
 #nav,
 #top-left {
-  background-color: #2c3840;
+  background-color: #545454;
 }
-#top-left{
+#top-left {
   margin-left: -30px;
- 
 }
 
 #top-right {
   margin-bottom: 20px;
+  font-family: "Tenor Sans", sans-serif;
+}
+
+.nav-item {
+  font-family: "Tenor Sans", sans-serif;
+  color: white;
+}
+.nav-item:hover {
+  font-family: "Tenor Sans", sans-serif;
+  color: rgb(108, 108, 252);
 }
