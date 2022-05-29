@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
 #link-div {
   display: flex;
   justify-content: space-evenly;
@@ -21,14 +20,13 @@
 
 #top-right {
   margin-bottom: 20px;
-  font-family: "Tenor Sans", sans-serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .nav-item {
-  font-family: "Tenor Sans", sans-serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   color: white;
 }
 .nav-item:hover {
-  font-family: "Tenor Sans", sans-serif;
-  color: rgb(108, 108, 252);
+  font-family: 'M PLUS Rounded 1c', sans-serif;  color: rgb(108, 108, 252);
 }

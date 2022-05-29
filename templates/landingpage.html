@@ -1,32 +1,48 @@
 {%include 'nav.html'%}{% load static %}
+<head>
+  <link rel="stylesheet" href="{% static 'landing.css' %}" />
 
-<link rel="stylesheet" href="{% static 'landing.css' %}" />
-<div id="main-content">
-  <div class="card" id="quote">
-    <blockquote>
-      "If we start being honest about our pain, <br />
-      our anger, and our shortcomings <br />
-      instead of pretending they don't exist,<br />
-      then maybe we'll leave the world a better place than we found it." <br />
-      - Russell Wilson
-    </blockquote>
+</head>
+<body>
+  
+  <div class="quote-inline-wrap-article-content">
+    
+    <div class="quote-inline-wrap">
+      <div class="quote-inline-marks">“</div>
+      <div class="quote-inline-testimonial">
+        <p>"If we start being honest about our pain, <br />
+          our anger, and our shortcomings <br />
+          instead of pretending they don't exist,<br />
+          then maybe we'll leave the world a better place than we found it." <br />
+        </p>
+      </div>
+      <div class="quote-inline-person">
+        
+      </div>
+      <p> - Russell Wilson</p>
+      
+    </div>
   </div>
-  <div class="card" id="mission_statement">
-    <b>His Mind Matters</b> is about bringing to light the struggles men face with mental health and in life in general.
+  
+  <p><b>His Mind Matters</b> is about bringing to light the struggles men face with mental health and in life in general.
     A lot of times we're lead to believe that we should be tough one-hundred percent of the time, and that feelings make
     us weak. We get told to man up or tough it out. We're here to tell you the truth. The truth that none of that is
-    true. To feel is human and natural and should not be seen as a weakness but talked about. Here at HMM we encourage
+    true. To feel is human and natural and should not be seen as a weakness but talked about. Here at <b>HMM</b> we encourage
     the vocalization of these feelings and struggles. We can get better together by supporting echother, and in knowing
-    you're not the only one.
+    you're not the only one.</p>
   </div>
-</div>
-<div class="card-image">
-  <img src="{% static 'mental-health-awareness.jpeg'%}" alt="mental health words on paper photo" id="center-photo"  ></img>
-  - Photo by Vie Studio
-  <hr>
-  <div class="card-section">
-    <p>Here at HMM we know how expensive it can be to seek help gfor mental health issues. We want you to know that there are people out there that care and share in the struggle to find or afford help for their issues and ailments. We want to help the best we can by gathering and providing the best FREE resources we can to ease your stress, calm your anxieties or whatever may be the case. You deserve to feel good , feel like yourself again and to let yourself <i>FEEL</i> in general. No one needs to struggle in silence. View our <a href="/resources">resources</a> to find a way to free yourself.</p>
-  </div>
-</div>
-
-
+  <div class="card-image">
+    <img src="{% static 'mental-health-awareness.jpeg'%}" alt="mental health words on paper photo" id="center-photo"  ></img>
+    - Photo by Vie Studio
+    <hr>
+    <div class="card-section">
+      <p>Here at HMM we know how expensive it can be to seek help gfor mental health issues. We want you to know that there are people out there that care and share in the struggle to find or afford help for their issues and ailments. We want to help the best we can by gathering and providing the best FREE resources we can to ease your stress, calm your anxieties or whatever may be the case. You deserve to feel good , feel like yourself again and to let yourself <i>FEEL</i> in general. No one needs to struggle in silence. View our <a href="/resources">resources</a> to find a way to free yourself.</p>
+    </div>
+  </div> 
+  
+  
+  
+  
+  
+</body>
+{%include 'footer.html'%}

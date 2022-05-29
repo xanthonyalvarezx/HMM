@@ -1,0 +1,4 @@
+asgiref @ file:///Users/anthonyalvarez/Library/Caches/pypoetry/artifacts/c3/92/1c/3d42ce7ad1e9e2aa1621c3fa8ebc5e21bd880a768bd691fb4f0356baa8/asgiref-3.4.1-py3-none-any.whl
+Django @ file:///Users/anthonyalvarez/Library/Caches/pypoetry/artifacts/7e/52/71/284f10e2381579f19051838f629fa960ff1e3e3050c51bfc1ce60f102e/Django-4.0-py3-none-any.whl
+sqlparse @ file:///Users/anthonyalvarez/Library/Caches/pypoetry/artifacts/ea/fd/ba/117a876397913faee210ef8bac93829e22ad9232662e656971383c0718/sqlparse-0.4.2-py3-none-any.whl
+fontawesomefree==6.1.1

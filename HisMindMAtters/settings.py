@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'pages',
-    'user_admin' ]
+    'user_admin',
+    'fontawesomefree'
+    ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

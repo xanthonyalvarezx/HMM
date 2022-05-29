@@ -1,0 +1,13 @@
+*{box-sizing: border-box;}
+
+.rows{
+    display: flex;
+    margin: 20px;
+}
+
+.resource-card{
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    
+}
